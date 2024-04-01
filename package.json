@@ -1,0 +1,23 @@
+{
+  "name": "786no-guessing-game",
+  "version": "1.0.1",
+  "description": " Cli number guessing-Game",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+     "cli-no-guessing-game": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Noreen Mehmood",
+  "license": "MIT",
+  "keywords": [],
+  "devDependencies": {
+    "@types/node": "^20.12.2"
+  },
+  "dependencies": {
+    "@types/inquirer": "^9.0.7",
+    "inquirer": "^9.2.17"
+  }
+}
